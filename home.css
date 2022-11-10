@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+
+
+.navigation{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    
+    width: 1000px;
+    
+    margin:initial;
+}
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+}
+
+.bar-icon{
+    font-size: 30px;
+ }
+
+ /* Hero Section */
+
+ .hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .hero-content h1{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2;
+ }
+
+ .tag{
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+ }
+
+ /* button */
+ button{
+    padding: 10px 15px;
+    border: black;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+
+ }
+
+ .explore-btn{
+    background: #ffc066;
+    align-self: flex-start;
+ }
+
+@media(max-width:786px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-image{
+        width: 90%;
+    }
+    .hero-image{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-content{
+        gap: 10px;
+        padding: 10px;
+    }
+    .hero-content h1{
+        font-size: 32px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
